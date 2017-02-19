@@ -25,7 +25,7 @@ To deploy to the testnet, store your password in a password.json file like
     "live":"myLivePassword"
 }`
 
-Note that the "live" network has not yet been added.
+Note that the "live" network has not yet been added.  To migrate to the testnet, run `truffle migrate --network livetestnet`.
 
 ## Build (Add to skypetwrapper npm module)
 
