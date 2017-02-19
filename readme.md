@@ -14,7 +14,7 @@ Run tests using `truffle test`
 Compile using `truffle compile`
 
 ## Migrations (Deployment)
-Run migrations (deploy) using `truffle migrations`.  
+Run migrations (deploy) using `truffle migrate`.  
 
 By default this uses the "development" or "ethereum-testrpc".  Install the testrpc using `npm install -g ethereum-testrpc` and run using `testrpc --port 8546` (note the 8546!).
 
