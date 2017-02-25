@@ -13,8 +13,8 @@ function cloneAndCheckout {
 function versionAndPush {
     cd $1
     git add .
-    git commit -m "updated SkyPet.json"
-    npm version patch
+    git commit -m "new contract"
+    npm version major
     npm publish
     git push origin master
     cd ..
